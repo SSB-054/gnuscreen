@@ -1,8 +1,10 @@
 import subprocess
 import tempfile
 
-# Author: Suraj Singh Bisht
-# Description: This module is used to create and manage GNU screen sessions.
+__version__ = "0.1.0"
+__author__ = "Suraj Singh Bisht"
+__license__ = "MIT"
+__description__ = "This module is used to create and manage GNU screen sessions."
 
 
 def get_screens_list():
